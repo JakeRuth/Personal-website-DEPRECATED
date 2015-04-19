@@ -2,14 +2,18 @@ body {
 	min-width: 629px;
 }
 
+a  {
+	text-decoration: none;
+}
+
 .logo {
 	position: absolute;
 	top: 5px;
 	left: 10px;
 	height: 75px;
-	//background-color: rgba(255,255,255,.2);
-	padding: 15px;
-	border-radius: 100px;
+	background-color: rgba(255,255,255,.4);
+	margin: 15px;
+	border-radius: 5px;
 }
 
 .header {

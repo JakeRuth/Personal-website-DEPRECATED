@@ -1,0 +1,47 @@
+.portfolio-header {
+	text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 55px;
+	margin-bottom: 85px;
+}
+
+.project:before {
+	content: '';
+	display: inline-block;
+	height: 100%; 
+	vertical-align: middle;
+	margin-right: -0.25em;
+}
+
+.project {
+	padding: 20px;
+	min-height: 200px;
+	background-color: rgba(0, 0, 0, .45);
+	border-radius: 5px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.project-description {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	width: 54%;
+	vertical-align: top;
+	line-height: 25px;
+}
+
+.kineticjs-link {
+	text-decoration: none;
+	color: lightskyblue;
+}
+
+.project-image-container {
+	display: inline-block;
+}
+
+.project-image {
+	width: 45%;
+}

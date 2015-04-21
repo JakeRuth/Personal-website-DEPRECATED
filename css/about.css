@@ -1,0 +1,11 @@
+.about-header {
+	text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 55px;
+	margin-bottom: 85px;
+}
+
+.current-me-image {
+	height: 400px;
+}

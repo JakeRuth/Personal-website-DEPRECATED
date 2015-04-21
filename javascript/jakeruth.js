@@ -25,4 +25,22 @@ $(function () {
 		$('.home2').hide();
 		$('.home1').show();
 	});
+	
+	
+	$('.resume-button').on('click', openResumeViewer);
+	$('.back-button').on('click', closeResumeViewer);
 });
+
+var openResumeViewer = function () {
+	$('.content').fadeOut(300);
+	setTimeout(function () {
+		$('.resume-container').fadeIn(1000);
+	}, 300);
+}
+
+var closeResumeViewer = function () {
+	$('.resume-container').fadeOut(300);
+	setTimeout(function () {
+		$('.content').fadeIn(1000);
+	}, 300);
+}

@@ -27,8 +27,18 @@ a  {
 	font-size: 40px;
 }
 
-.sub-header {
+.resume-container {
+	text-align: center;
+	display: none;
+	opacity: .85;
+}
 
+.back-button {
+	cursor: pointer;
+	height: 50px;
+	position: absolute;
+	left: 30px;
+	top: 200px;
 }
 
 .button-container {

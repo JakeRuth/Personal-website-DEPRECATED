@@ -6,6 +6,22 @@
 	margin-bottom: 85px;
 }
 
-.current-me-image {
+.image-container {
+	width: 40%;
+	text-align: center;
+	display: inline-block;
+}
+
+#current-me-image {
 	height: 400px;
+	border-style: double;
+	border-width: 4px;
+	border-radius: 8px;
+	border-color: white;
+}
+
+.image-subtitle {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	margin: 4px;
 }

@@ -1,3 +1,7 @@
+a {
+	color: #00FFE5;
+}
+
 .about-header {
 	text-align: center;
 	color: white;
@@ -69,6 +73,90 @@
 	margin: 0px;
 	text-align: left;
 	padding: 5px;
+}
+
+.about-me-description {
+	padding: 10px 35px;
+	line-height: 30px;
+}
+
+.email {
+	color: #00FFE5;
+}
+
+.random-blurb-header {
+	font-family: 'Ranchers', cursive;
+	font-weight: 100;
+	margin-left: 35px;
+}
+
+.red {
+	color: red;
+}
+
+.orange {
+	color: orange;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.limegreen {
+	color: limegreen;
+}
+
+.green {
+	color: green;
+}
+
+.lightblue {
+	color: lightblue;
+}
+
+.blue {
+	color: blue;
+}
+
+.purple {
+	color: purple;
+}
+
+.pink {
+	color: pink;
+}
+
+.rose {
+	color: rose;
+}
+
+.darkblue {
+	color: darkblue;
+}
+
+.cyan {
+	color: cyan;
+}
+
+.uni {
+	margin-left: 38px;
+}
+
+.blurb-container {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.blurb-image {
+	display: inline-block;
+	height: 75px;
+}
+
+.blurb-description {
+	width: 70%;
+	display: inline-block;
+	line-height: 30px;
+	margin-left: 12px;
 }
 
 .personal-photo {

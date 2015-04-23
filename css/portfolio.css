@@ -1,3 +1,7 @@
+a {
+	color: #00FFE5;
+}
+
 .portfolio-header {
 	text-align: center;
 	color: white;
@@ -32,11 +36,6 @@
 	width: 54%;
 	vertical-align: top;
 	line-height: 25px;
-}
-
-.kineticjs-link {
-	text-decoration: none;
-	color: lightskyblue;
 }
 
 .project-image-container {

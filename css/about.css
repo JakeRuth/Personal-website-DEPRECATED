@@ -2,6 +2,10 @@ a {
 	color: #00FFE5;
 }
 
+hr {
+	width: 90%;
+}
+
 .about-header {
 	text-align: center;
 	color: white;
@@ -114,24 +118,24 @@ a {
 	color: lightblue;
 }
 
-.blue {
-	color: blue;
+.darkorange {
+	color: darkorange;
 }
 
-.purple {
-	color: purple;
+.violet {
+	color: violet;
 }
 
-.pink {
-	color: pink;
+.teal {
+	color: teal;
 }
 
-.rose {
-	color: rose;
+.salmon {
+	color: salmon;
 }
 
-.darkblue {
-	color: darkblue;
+.lightsteelblue {
+	color: lightsteelblue;
 }
 
 .cyan {

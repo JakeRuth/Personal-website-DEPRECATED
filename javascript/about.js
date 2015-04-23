@@ -1,6 +1,34 @@
 $(function () {
+	var aboutTab = $('.about-tab'),
+		portfolioTab = $('.portfolio-tab');
+
 	startPhotoChanger();
+	
+	aboutTab.on('click', function () {
+		if (!aboutTab.hasClass('selected')) {
+			$('.portfolio-page').fadeOut(500);
+			setTimeout(function () {
+				$('.about-page').fadeIn(500);
+			}, 500);
+			toggleSelectedTab();
+		}
+	});
+	
+	portfolioTab.on('click', function () {
+		if (!portfolioTab.hasClass('selected')) {
+			$('.about-page').fadeOut(500);
+			setTimeout(function () {
+				$('.portfolio-page').fadeIn(500);
+			}, 500);
+			toggleSelectedTab();
+		}
+	});
 });
+
+var toggleSelectedTab = function () {
+	$('.about-tab').toggleClass('selected');
+	$('.portfolio-tab').toggleClass('selected');
+}
 
 var startPhotoChanger = function () {
 	var filePathBase = "images/Me/";

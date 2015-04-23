@@ -3,13 +3,14 @@
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	margin-top: 55px;
-	margin-bottom: 85px;
+	margin-bottom: 60px;
 }
 
 .image-container {
 	width: 40%;
 	text-align: center;
 	display: inline-block;
+	margin-top: 30px;
 }
 
 #current-me-image {
@@ -24,4 +25,54 @@
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	margin: 4px;
+}
+
+.tabed-content {
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	vertical-align: top;
+}
+
+.tab-container {
+	text-align: left;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.tab {
+	font-size: 17px;
+	padding: 5px 30px;
+	display: inline-block;
+	border-color: black;
+	border-bottom-style: none;
+	background-color: rgba(0, 0, 0, .3);
+	cursor: pointer;
+}
+
+.selected {
+	border-width: 2px;
+	border-style: solid;
+}
+
+.page {
+	background-color: rgba(0, 0, 0, .3);
+	height: 400px;
+	border-radius: 2px;
+	overflow: auto;
+}
+
+.about-page {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	text-align: left;
+	padding: 5px;
+}
+
+.personal-photo {
+	display: inline-block;
+	width: 30%;
+	padding: 7px;
 }

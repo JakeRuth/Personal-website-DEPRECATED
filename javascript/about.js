@@ -1,6 +1,7 @@
 $(function () {
 	var aboutTab = $('.about-tab'),
 		portfolioTab = $('.portfolio-tab');
+	var portfolioClicked = false;
 
 	startPhotoChanger();
 	
@@ -15,6 +16,11 @@ $(function () {
 	});
 	
 	portfolioTab.on('click', function () {
+		if (!portfolioClicked) {
+			loadMyPictures();
+		}
+		portfolioClicked = true;
+		
 		if (!portfolioTab.hasClass('selected')) {
 			$('.about-page').fadeOut(500);
 			setTimeout(function () {
@@ -28,6 +34,12 @@ $(function () {
 var toggleSelectedTab = function () {
 	$('.about-tab').toggleClass('selected');
 	$('.portfolio-tab').toggleClass('selected');
+}
+
+var loadMyPictures = function () {
+	for (var i =1; i<=12; i++) {
+		$('.portfolio-page').prepend("<img class='personal-photo' src='images/MyPictures/" + i + ".jpg' />");
+	}
 }
 
 var startPhotoChanger = function () {

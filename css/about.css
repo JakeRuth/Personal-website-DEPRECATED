@@ -147,7 +147,7 @@ hr {
 }
 
 .blurb-container {
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	margin-top: 10px;
 }
 
@@ -161,6 +161,11 @@ hr {
 	display: inline-block;
 	line-height: 30px;
 	margin-left: 12px;
+	vertical-align: top;
+}
+
+.hack {
+	margin-left: 30px;
 }
 
 .personal-photo {

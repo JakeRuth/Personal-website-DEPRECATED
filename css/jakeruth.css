@@ -6,6 +6,12 @@ a  {
 	text-decoration: none;
 }
 
+.forkme {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
 .logo {
 	position: absolute;
 	top: 5px;

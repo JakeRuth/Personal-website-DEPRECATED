@@ -2,6 +2,11 @@ a {
 	color: #00FFE5;
 }
 
+.logo-portfolio {
+	opacity: .6;
+	border-radius: 44px;
+}
+
 .portfolio-header {
 	text-align: center;
 	color: white;

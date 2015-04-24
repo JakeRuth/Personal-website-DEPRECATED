@@ -55,6 +55,7 @@ a  {
 
 img {
 	display: inline-block;
+	border-style: none;
 }
 
 img.background {

@@ -1,0 +1,8 @@
+#resume {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.name, .address {
+	margin: 0px;
+}

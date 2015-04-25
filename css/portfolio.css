@@ -5,6 +5,7 @@ a {
 .logo-portfolio {
 	opacity: .6;
 	border-radius: 44px;
+	left: 12px !important;
 }
 
 .portfolio-header {

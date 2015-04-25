@@ -5,6 +5,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<link href="http://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" type="text/css">
 		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="javascript/portfolio.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/portfolio.css" />
 		<link rel="stylesheet" type="text/css" href="css/jakeruth.css" />
         <title>Jake Ruth</title>
@@ -15,63 +16,68 @@
 			<img class="forkme" src="images/forkme.png" />
 		</a>
 		
-			<a href="index.html">
-				<img class="logo logo-portfolio" src="images/JRLogo44.gif" />
-			</a>
-			<img class="background" src="images/Polygons/11.jpg" />
+		<a href="index.html">
+			<img class="logo logo-portfolio" src="images/JRLogo44.gif" />
+		</a>
+		<img class="background" src="images/Polygons/11.jpg" />
+		
+		<a href="index.html">
+			<div id="back-button"></div>
+			<img id="back-arrow" src="images/back-arrow.png"></img>
+		</a>
+		
+		<div class="content">
+			<h1 class="portfolio-header">Here are some projects I've worked on</h1>
 			
-			<div class="content">
-				<h1 class="portfolio-header">Here are some projects I've worked on</h1>
-				
-				<div class="projects-container">
-					<div class="project">
-						<a href="http://grails.org/plugin/shiro-guard">
-							<img class="project-image" src="images/Portfolio/guard.png" />
-						</a>
-						
-						<div class="project-description">
-							When I was interning full time with <a href="http://www.commercehub.com/">CommerceHub</a> during the summer of 2015
-							a big project I undertook was creating a Grails plugin.  The plugin is called Grails Shiro Guard, it uses the power of
-							the Shiro java application security framework to dynamically add permission strings to a users cache as they navigate 
-							through a website.  The plugin is available from the Grails plugin repository for any Grails user to incorporate into their
-							own projects.  The plugin is also open sourced and has full documentation, all which can be accessed from the plugin's 
-							landing page in Grails (link on photo to the left).
-						</div>
-					</div>
+			<div class="projects-container">
+				<div class="project">
+					<a href="http://grails.org/plugin/shiro-guard">
+						<img class="project-image" src="images/Portfolio/guard.png" />
+					</a>
 					
-					<div class="project">
-						<div class="project-description">
-							I re-coded the game 2048 as an html5 compliant web browser game 	(no flash).  
-							I was inspired to re-code the game was because when I played the app version, the animations were too slow and it 
-							slowed down my game play.  I used <a href="http://kineticjs.com/" >KineticJS</a>
-							(no longer supported unfortunately), and I also did  
-							not look at the source code for the original game.  The emotional roller coaster I endured while debugging 
-							the game was a learning experience I will not soon forget.  Lastly, I made the tile animation 
-							extremely fast (.03 seconds) on purpose, so that the user could play the game as fast as possible, without glitches. 
-							Button mash away!
-						</div>
-						
-						<a href="2048.html">
-							<img class="project-image" src="images/Portfolio/2048.png" />
-						</a>
-					</div>
-					
-					<div class="project">
-						<a href="http://www.mimicmeemoji.com/">
-							<img class="project-image" src="images/Portfolio/mimicme.png" />
-						</a>
-						
-						<div class="project-description">
-							MimicMeEmoji is an idea that was inspired by one of my friends.  My friend would take snaps of herself mimicking the faces of emojis
-							and overlay the emoji on her face.  I decided to create a web application after tons of my friends raved about how 
-							cool and funny they thought the idea was.  On the website you can upload multiple photos of yourself mimicking emojis.  
-							To create this I used Grails with mongodb, and amazon s3 for image storage.  
-							The response I received from this website was below what I expected, I realized
-							that this is way better suited for an app, I have plans to create an app version in the future.
-						</div>
+					<div class="project-description">
+						When I was interning full time with <a href="http://www.commercehub.com/">CommerceHub</a> during the summer of 2015
+						a big project I undertook was creating a Grails plugin.  The plugin is called Grails Shiro Guard, it uses the power of
+						the Shiro java application security framework to dynamically add permission strings to a users cache as they navigate 
+						through a website.  The plugin is available from the Grails plugin repository for any Grails user to incorporate into their
+						own projects.  The plugin is also open sourced and has full documentation, all which can be accessed from the plugin's 
+						landing page in Grails (link on photo to the left).
 					</div>
 				</div>
 				
+				<div class="project">
+					<div class="project-description">
+						I re-coded the game 2048 as an html5 compliant web browser game 	(no flash).  
+						I was inspired to re-code the game was because when I played the app version, the animations were too slow and it 
+						slowed down my game play.  I used <a href="http://kineticjs.com/" >KineticJS</a>
+						(no longer supported unfortunately), and I also did  
+						not look at the source code for the original game.  The emotional roller coaster I endured while debugging 
+						the game was a learning experience I will not soon forget.  Lastly, I made the tile animation 
+						extremely fast (.03 seconds) on purpose, so that the user could play the game as fast as possible, without glitches. 
+						Button mash away!
+					</div>
+					
+					<a href="2048.html">
+						<img class="project-image" src="images/Portfolio/2048.png" />
+					</a>
+				</div>
+				
+				<div class="project">
+					<a href="http://www.mimicmeemoji.com/">
+						<img class="project-image" src="images/Portfolio/mimicme.png" />
+					</a>
+					
+					<div class="project-description">
+						MimicMeEmoji is an idea that was inspired by one of my friends.  My friend would take snaps of herself mimicking the faces of emojis
+						and overlay the emoji on her face.  I decided to create a web application after tons of my friends raved about how 
+						cool and funny they thought the idea was.  On the website you can upload multiple photos of yourself mimicking emojis.  
+						To create this I used Grails with mongodb, and amazon s3 for image storage.  
+						The response I received from this website was below what I expected, I realized
+						that this is way better suited for an app, I have plans to create an app version in the future.
+					</div>
+				</div>
 			</div>
+			
+		</div>
 	</body>
 </html>

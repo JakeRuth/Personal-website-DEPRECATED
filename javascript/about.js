@@ -1,4 +1,6 @@
 $(function () {
+	slideBackButton();
+
 	var aboutTab = $('.about-tab'),
 		portfolioTab = $('.portfolio-tab');
 	var portfolioClicked = false;
@@ -99,4 +101,16 @@ var startPhotoChanger = function () {
 			counter++;
 		}, 250);
 	}, 4000);
+}
+
+var slideBackButton = function () {
+	var backButton = $('#back-button');
+	var backArrow = $('#back-arrow');
+	
+	setTimeout(function () {
+		if (backButton.length && backArrow.length) {
+			backButton.fadeIn(2000);
+			backArrow.fadeIn(2000);
+		}
+	}, 500);
 }

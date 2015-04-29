@@ -21,7 +21,7 @@ a  {
 }
 
 #back-button {
-	position: absolute;
+	position: fixed;
 	width: 150px;
 	height: 150px;
 	background-color: white;
@@ -35,7 +35,7 @@ a  {
 }
 
 #back-arrow {
-	position: absolute;
+	position: fixed;
 	top: 279px;
 	left: 2px;
 	height: 33px;
@@ -56,20 +56,6 @@ a  {
 
 .resume-container {
 	display: none;
-}
-
-.back-button {
-	cursor: pointer;
-	height: 50px;
-	position: absolute;
-	left: 30px;
-	top: 200px;
-}
-
-.button-container {
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
 }
 
 img {
